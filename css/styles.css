@@ -1,21 +1,41 @@
 
+/* Type Selectors */
 body{
-    background-color : rgb(128, 128, 128);
+    background-color : rgb(54, 54, 54);
+    color :rgb(245, 245, 245);
+    font-family : Georgia, sans-serif;
 }
 
-/*
-p {
-    color : rgb(27, 27, 172);
-    background-color : white;
-    font-family : "Times New Roman", sans-serif;
-    font-size : 50;
+h1{
+    color : rgb(9, 197, 166);
 }
-*/
+
+h1, h2, h3, h4, h5, h6{
+    text-align : center;
+}
+
+img{
+    height : 500px;
+    width :700px;
+}
+
+/* ID Selectors */
+#ingredients, #steps{
+    background-color : rgb(207, 200, 200);
+    font-family : "Times New Roman", Georgia, sans-serif;
+
+}
 
 #ingredients{
-    background-color : rgb(207, 200, 200);
     color : rgb(8, 8, 133);
-    font-family : "Times New Roman", Georgia, sans-serif;
-    font-style : italic;
+}
+
+#steps{
+    color : rgb(129, 20, 20);
+}
+
+/* Class Selectors */
+.links{
+    background-color : white;
 }
 
