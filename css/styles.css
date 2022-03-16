@@ -1,4 +1,21 @@
 
 body{
-    background-color : gray;
+    background-color : rgb(128, 128, 128);
 }
+
+/*
+p {
+    color : rgb(27, 27, 172);
+    background-color : white;
+    font-family : "Times New Roman", sans-serif;
+    font-size : 50;
+}
+*/
+
+#ingredients{
+    background-color : rgb(207, 200, 200);
+    color : rgb(8, 8, 133);
+    font-family : "Times New Roman", Georgia, sans-serif;
+    font-style : italic;
+}
+
